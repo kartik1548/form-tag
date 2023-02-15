@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Forms</title> 
+
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <div>
+        <label for="name">Name:</label><br>
+        <input type="text" name="myName" placeholder="Enter your name" id="name">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" name="myEmail" placeholder="Enter your email" id="email">
+        </div><br>
+        
+        <div>
+              <input type="radio" name="myGender" id="male">
+              <label for="male">Male</label>
+               <input type="radio" name="myGender" id="female" >
+               <label for="female">Female</label>
+               <input type="radio" name="myGender" id="other">
+               <label for="other">Other</label>
+        </div><br>
+    </fieldset><br>
+        <fieldset>
+            <legend>Sensitive area</legend>
+    <div>
+        <label for="password">Password:</label><br>
+        <input type="Password" name="myPassword" placeholder="Enter your password" id="password">
+    </div><br>
+
+    <div>
+        <label for="Confirm password">Confirm Password:</label><br>
+        <input type="Password" name="myPassword" placeholder="Confirm password" id="Confirm password">
+    </div>
+
+    </fieldset><br>
+    <div>
+    <strong> What is your favourite color? </strong><br>
+    <input type="checkbox" name="mycheckbox" id="red">
+    <label for="red">red</label>
+    <input type="checkbox" name="mycheckbox" id="blue">
+    <label for="blue">blue</label>
+    <input type="checkbox" name="mycheckbox" id="black">
+    <label for="black">black</label>
+</div><br>
+
+    <div>
+      Country:  <select name="myCountry">
+        <option value="Ind">India</option>
+        <option value="Aus">Australia</option>
+        <option value="Eng">England</option>
+      </select>
+    </div><br>
+
+    <div>
+        <label for="date">Date:</label>
+        <input type="date" name="Date" id="date">
+    </div>
+    <div>
+        Write about yourself: <br> <textarea name="myText" cols="90" rows="10"></textarea>
+     </div> <br>
+
+    <div>
+        <input type="submit" value="Register">
+        <input type="reset">
+    </div>
+    
+    
+</form>
+</body>
+</html>
